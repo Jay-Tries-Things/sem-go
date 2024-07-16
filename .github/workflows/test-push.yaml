@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Setup GO Environment
-        uses:
+        uses: actions/setup-go@v5.0.1
       
       - name: Checkout Repo
         uses: actions/checkout@v4
